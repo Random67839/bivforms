@@ -1,6 +1,6 @@
 # Bittivirta FORMS
 
-Bittivirta forms an open source for displaying forms.
+Bittivirta forms an open source form application for displaying forms.
 
 ## What is Bittivirta forms?
 
