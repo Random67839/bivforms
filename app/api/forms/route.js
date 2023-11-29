@@ -10,7 +10,7 @@ export async function GET(request) {
       {
         code: 404,
         error:
-          "Please check the URL or if you think this is an error, please contact us at on Discord.",
+          "Please check the URL or if you think this is an error, please contact us.",
       },
       { status: 404 }
     );

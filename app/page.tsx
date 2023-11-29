@@ -35,11 +35,10 @@ export default function Home() {
                 </h2>
                 <span className="text-primary-500 dark:text-primary-400">
                   <p>
-                    Bittivirta forms works everywhere - offline and online. Take
-                    your data collection to the next level with Bittivirta
+                    Bittivirta forms works everywhere, on premises or in online.
+                    Take your data collection to the next level with Bittivirta
                     Forms, to collect data just send a link to the customer or
-                    by having a tablet on site, no internet connection required
-                    to collect NPS or customer feedback.
+                    by having a tablet on site.
                   </p>
                 </span>
               </div>
@@ -79,7 +78,8 @@ export default function Home() {
                     Filling forms have never been easier, with Bittivirta Forms.
                     For on premise solution customer friendly interface is
                     appealing, modern and easy to use. For cloud solution you
-                    can use your own domain name and logo.
+                    can use your own domain name and logo. Just fork the
+                    project, but keep in mind the MIT license.
                   </p>
                 </span>
               </div>
@@ -93,7 +93,7 @@ export default function Home() {
                     something that you would like to implement or fix, please
                     create a pull request or make a fork of this project. With
                     the MIT license you can use this project for commercial
-                    purposes for self hosted version.
+                    purposes for self hosted version
                   </p>
                 </span>
               </div>
