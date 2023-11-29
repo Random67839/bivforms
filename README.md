@@ -21,6 +21,8 @@ Bittivirta forms is a simple form display system that can be used to display for
 4. Run `npm install`
 5. Run `npm run build && npm start`
 6. Open `http://localhost:3000` in your browser
+7. Create database tables with API call `http://localhost:3000/api/setup`
+8. Create forms using SQL query. See [Form data in database](#form-data-in-database)
 
 ## Usage
 
