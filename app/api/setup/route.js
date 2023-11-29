@@ -2,7 +2,7 @@ import { getForm } from "app/lib/db-connector";
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const data = await getForm();
+  const data = await getForm(0);
   /* getForm function defaults to see if form exists in table. If not, it creates it.
    * Function defaults "no result found" if table is present, but form is not found.
    * Function defaults "ER_NO_SUCH_TABLE" if table is not found, and creates it.
@@ -23,7 +23,7 @@ export async function GET() {
     return NextResponse.json(
       {
         code: 200,
-        state: "Connection successful.",
+        state: "Connection successful. Tables are present.",
       },
       { status: 200 }
     );
@@ -41,7 +41,7 @@ export async function GET() {
       return NextResponse.json(
         {
           code: 200,
-          state: "Connection successful.",
+          state: "Connection successful. Tables are present.",
         },
         { status: 200 }
       );
