@@ -9,7 +9,7 @@ const ubuntu = Ubuntu({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Bittivirta Forms",
-  description: "Bittivirta Forms, a moden form provider for the modern web",
+  description: "Bittivirta Forms, a modern form provider for the modern web",
 };
 
 export default function RootLayout({
