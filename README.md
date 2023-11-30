@@ -70,29 +70,30 @@ For every field you can define:
 Example form fields:
 
 ```json
-{
-  "id": "name",
-  "type": "text",
-  "label": "Name",
-  "placeholder": "Your name",
-  "required": true
-},
-{
-  "id": "token",
-  "type": "hidden",
-  "hidden": true,
-  "required": true
-},
-{
-  "id": "Terms & Conditions",
-  "tc": true,
-  "type": "hidden",
-  "label": "By submitting this form, you agree to our",
-  "placeholder": "Terms & Conditions",
-  "link": "https://www.example.com/terms-and-conditions",
-  "value": "I agree to the terms and conditions"
-}
-
+[
+  {
+    "id": "name",
+    "type": "text",
+    "label": "Name",
+    "placeholder": "Your name",
+    "required": true
+  },
+  {
+    "id": "token",
+    "type": "hidden",
+    "hidden": true,
+    "required": true
+  },
+  {
+    "id": "Terms & Conditions",
+    "tc": true,
+    "type": "hidden",
+    "label": "By submitting this form, you agree to our",
+    "placeholder": "Terms & Conditions",
+    "link": "https://www.example.com/terms-and-conditions",
+    "value": "I agree to the terms and conditions"
+  }
+]
 ```
 
 ### Public Fields
