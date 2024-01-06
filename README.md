@@ -32,8 +32,8 @@ To create form in current form you need to create a new form. You need to insert
 
 Form values in database are:
 
-- `id` - Form id
-- `name` - Form url address eg. `http://localhost:3000/form/{name}`
+- `id` - Form id (auto increment value)
+- `name` - Form url address eg. `http://localhost:3000/form?id={name}`
 - `title` - Form title shown on the website
 - `description` - Form description
 - `fields` - Form fields in JSON format
@@ -53,7 +53,7 @@ Supported form field types are:
 
 For every field you can define:
 
-- `id` - Field id (must be unique and not id), value for specific field can prefilled with URL parameter `/form?id=form&fieldId=exampleValue`, user can't change the value unless they change the URL parameter
+- `id` - Field id (must be unique and not "id"), value for specific field can prefilled with URL parameter `/form?id={requested_form}&fieldId=exampleValue`, user can't change the value unless they change the URL parameter. For example if field id is `name` and url has preset values `/form?id={requested_form}&name=Pekka` the form will autofill `name` field with pregiven value `Pekka`.
 - `type` - Field type (see above)
 - `label` - Field label
 - `placeholder` - Field placeholder
